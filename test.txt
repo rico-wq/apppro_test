@@ -2,7 +2,37 @@
 試しに、ファイルをアップしました。
 
 >mkdir github
+
 >cd github
+
 >mkdir apppro_test
+
 >cd apppro_test
+
 >notepad test.txt
+
+>git config --global user.email "ee33081q@nagaoka-ct.ac.jp"
+
+>git config --global user.name "rico-wq"
+
+>git add test.txt
+
+>git commit -m "はじめてのプッシュ"
+
+>git remote add origin https://github.com/rico-wq/apppro_test.git
+
+> git push --set-upstream origin master
+
+現れた画面で　TOKENを入力
+
+github上に　test.txtが追記されている
+
+2回目のpushするときは
+
+>git add test.txt
+
+>git commit -m "２回目のプッシュ"
+
+>git push
+
+でできる。
